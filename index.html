@@ -23,13 +23,10 @@
             <div style="float: left; margin-right: 20px;">  
                 <nav>
                     <li>
-                            <a href="#main" aria-current="page">
-                            Space Bears
-                            </a>
-                        <li><a href="#">ЗАКАЗАТЬ  БИЛЕТ</a></li>
-                        <li><a href="#">ПРИЕМУЩЕСТВА</a></li>
-                        <li><a href="#">ФИЛЬМЫ</a></li>
-                        <li><a href="#">КОНТАКТЫ</a></li>
+                    <a href="#buyTicket" aria-current="page"> ЗАКАЗАТЬ  БИЛЕТ</a>
+                    <a href="#advantages" aria-current="page">ПРИЕМУЩЕСТВА</a>
+                    <a href="#films" aria-current="page">ФИЛЬМЫ</a>
+                    <a href="#contacts" aria-current="page">КОНТАКТЫ</a>
                     </li>
                 </nav>  
             </div>
@@ -66,7 +63,8 @@
         </article> 
         
         <section>
-            <h3>Почему мы?</h3>  
+            <a id="advantages"><h3>Почему мы?</h3>  </a>
+
         </section>        
 
         <div>
@@ -97,13 +95,15 @@
     </div>
     <div>
         <div>
-            <h2>Выберите фильм</h2>
+            <a id="buyTicket"><h2>Выберите фильм</h2></a>
+            
         </div>
+        
         <div>
-            <table>
+            <table cellpadding='5' cellpadding='5' border="1" >
                 <thead>
                     <tr>
-                        <th> check</th>
+                        <th> check </th>
                         <th>Начало сеанса</th>
                         <th>Название фильма</th>
                         <th>Жанр</th>
@@ -113,7 +113,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>check</td>
+                        <td rowspan="3">check</td>
                         <td>10:00</td>
                         <td><a href="https://www.kinopoisk.ru/film/1008445" target="_blank" title="Человек-паук" > Человек-паук</a> </td>
                         <td>Фантастика, боевик, приключения</td>
@@ -186,47 +186,45 @@
                 </p>
                 </div>
             <div>
-                <button type="submit"> Получить подарок</button>
+                <a href="#present" aria-current="page"> <button type="submit"> Получить подарок</button></a>
             </div>
             </div>
         </div>
     </div> 
     <div>
         <div>
-            <h2>Фильмы</h2>
+            <a id="films"> <h2 aria-current="location">Фильмы</h2></a>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab adipisci alias, animi, commodi eius ipsum, 
                 <br> laudantium neque nihil omnis perferendis sed sequi tempore! Ad ea esse ex inventore repudiandae, 
                 suscipit!
             </p>
         </div>
+        </table>
         <div>
             <table>
-                <thead>
-                    <tr>
-                        <th><img src="img/mov1.jpg" alt="Человек-паук"></th>
-                        <th><img src="img/mov2.jpg" alt="Собачья жизнь"></th>
-                        <th><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
-                    </tr>
-                    <tr>
-                        <th><img src="img/mov1.jpg" alt="Человек-паук"></th>
-                        <th><img src="img/mov2.jpg" alt="Собачья жизнь"></th>
-                        <th><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
-                    </tr>
-                <tfoot>
-                    <tr>
-                        <th><img src="img/mov1.jpg" alt="Человек-паук"></th>
-                        <th><img src="img/mov2.jpg" alt="Собачья жизнь"></th>
-                        <th><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
-                    </tr>
-                </tfoot>
-                </thead>
+                <tr>
+                    <th><img src="img/mov1.jpg" alt="Человек-паук"></th>
+                    <th><img src="img/mov2.jpg" alt="Собачья жизнь"></th>
+                    <th><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
+                </tr>
+                <tr>
+                    <td><img src="img/mov1.jpg" alt="Человек-паук"></td>
+                    <td><img src="img/mov2.jpg" alt="Собачья жизнь"></td>
+                    <td><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>                    </tr>
+                <tr>
+                    <td><img src="img/mov1.jpg" alt="Человек-паук"></td>
+                    <td><img src="img/mov2.jpg" alt="Собачья жизнь"></td>
+                    <td><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>
+                </tr>
             </table>
         </div> 
-        <div>   
+        <div>  
+            <a id="contacts"></a> 
             <div><img src="img/1920x450.png" alt="date"></div>    
         <div>
     <div>
+        <a id="present"></a>
         <form>
             <div>
                 <label for="name">Имя</label>
