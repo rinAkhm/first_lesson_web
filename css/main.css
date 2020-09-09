@@ -1,0 +1,24 @@
+body{
+    background-color: #eaeaea;
+    font-family: "Roboto", sans-serif;
+}
+
+@font-face{
+    font: 'Roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+    format: ("trutype");
+}
+
+.container{
+    max-width: 1030px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-table_movie{
+
+}
+
+.table-list_movie{
+
+}
