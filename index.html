@@ -218,38 +218,38 @@
         <div>
     <div>
         <a id="present"></a>
-        <form>
+        <form action="">
             <div>
-                <label for="name">Имя</label>
-                <input type="text" placeholder="Имя*" name="name" id="name" required>
+                <label for="name"  >Имя</label>
+                <input type="text" placeholder="Имя*" id="name" required>
             </div>
             <div>
                 <label for="list">Список:</label> <br>
                 <select name="some" id="list" required>
-                    <option value="1">выбор1</option>
-                    <option value="2">выбор2</option>
-                    <option value="3">выбор3</option>
+                    <option value="1" value="выбор1" >выбор1</option>
+                    <option value="2"value="выбор2" >выбор2</option>
+                    <option value="3" value="выбор3">выбор3</option>
                 </select>
             </div>
             <div>
                 <label for="choice1" >выбор1</label> 
-                <input type="radio" name="radio1" id="choice1" required> <br> 
+                <input type="radio" name="radio1" id="choice1" value="выбор1" required> <br> 
                 <label for="choice2" >выбор2</label> 
-                <input type="radio" name="radio1" id="choice2">  <br>
+                <input type="radio" name="radio1" id="choice2" value="выбор2" required>  <br>
                 <label for="choice3" >выбор3</label> 
-                <input type="radio" name="radio1" id="choice3">         
+                <input type="radio" name="radio1" id="choice3" value="выбор3" required>         
             </div>
             <div>
                 <label for="description">Введите сообщение:</label> <br>
-                <textarea name="description" placeholder="Комментарий" id="description" cols="30" rows="10"></textarea>
+                <textarea  name="description" placeholder="Комментарий" id="description" cols="30" rows="10" ></textarea>
             </div>
             <div>
                 <label for="permission">Я согласен на обработку персональных данных</label>
-                <input type="checkbox" id="permission" required>
+                <input value="checkbox" type="checkbox" id="permission" required>
             </div>
             <div>
                 <label for="upload"></label>
-                <input type="file" id="upload">
+                <input value="file" type="file" id="upload">
             </div>
             <div>
                 <label for="sent"></label>
