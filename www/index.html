@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru"> 
 <head>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="fonts/Roboto/Roboto-Regular.ttf">  
-    <link rel="stylesheet" href="/css/main.css">   
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../fonts/Roboto/Roboto-Regular.ttf">  
+    <link rel="stylesheet" href="../css/main.css">   
     <title>кинотеатр</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
             <div> 
                 <div style="float: left; margin-right: 20px; background-color: black">
                     <a href="https://innopolis.university" title="Университет Иннополис" target="_blank">
-                        <img src="img/logo.png" alt="Университет Иннополис"/>
+                        <img src="../img/logo.png" alt="Университет Иннополис"/>
                     </a>    
                 </div>
             </div>
@@ -65,7 +65,7 @@
 
         <div>
             <section>
-                <img src="img/b2_icon_1.jpg" alt="Экраны">
+                <img src="../img/b2_icon_1.jpg" alt="Экраны">
                 <h4>Большие экраны</h4>   
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
                     At autem cum dolores dolorum eius error expedita illum itaque <br> 
@@ -75,12 +75,12 @@
             
     
              <section>
-                 <img src="img/b2_icon_2.jpg" alt="sound">
+                 <img src="../img/b2_icon_2.jpg" alt="sound">
                 <h4>Объемный звук</h4> 
                 <p>Lorem ipsum dolor sit amet.</p> 
             </section>    
             <section>
-                <img src="img/b2_icon_3.jpg" alt="armchair">
+                <img src="../img/b2_icon_3.jpg" alt="armchair">
                 <h4>Удобное кресло</h4> 
                 <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
                 At autem cum dolores dolorum eius error expedita illum itaque molestiae <br> 
@@ -90,10 +90,12 @@
         </div>
     </div>
     <section>
-        <div class="container">
-            <a id="buyTicket" class="choiceFilm"><h2>Выберите фильм</h2></a>
-            <table>
-                <thead>
+        <div class="containers">
+            <div>
+                <h2 class="header-list_movie">Выберите фильм</h2>
+            </div>    
+            <table class="table-list_movie">
+                <thead class="th">
                     <tr>
                         <th> Time </th>
                         <th>stuff thst will happen </th>
@@ -127,7 +129,6 @@
                     <tr>
                         <td>16:00</td>
                         <td> <a href="https://www.kinopoisk.ru/film/693730/" target="_blank" title="Люди в черном: Интернэшнл"> Люди в черном: Интернэшнл </a> </td>
-                        <td>Фантастика, боевик, комедия</td>
                         <td>Заказать билет</td>
                         <td>check</td>
                     </tr>
@@ -145,7 +146,7 @@
 <div>     
             <br>  
     <div> 
-        <img src="img/b4_img.jpg" alt="pesent"> 
+        <img src="../img/b4_img.jpg" alt="pesent"> 
     </div>    
     <div>
         
@@ -197,59 +198,59 @@
         <div>
             <table>
                 <tr>
-                    <th><img src="img/mov1.jpg" alt="Человек-паук"></th>
-                    <th><img src="img/mov2.jpg" alt="Собачья жизнь"></th>
-                    <th><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
+                    <th><img src="../img/mov1.jpg" alt="Человек-паук"></th>
+                    <th><img src="../img/mov2.jpg" alt="Собачья жизнь"></th>
+                    <th><img src="../img/mov3.jpg" alt="Люди в черном: Интернэшнл"></th>
                 </tr>
                 <tr>
-                    <td><img src="img/mov1.jpg" alt="Человек-паук"></td>
-                    <td><img src="img/mov2.jpg" alt="Собачья жизнь"></td>
-                    <td><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>                    </tr>
+                    <td><img src="../img/mov1.jpg" alt="Человек-паук"></td>
+                    <td><img src="../img/mov2.jpg" alt="Собачья жизнь"></td>
+                    <td><img src="../img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>                    </tr>
                 <tr>
-                    <td><img src="img/mov1.jpg" alt="Человек-паук"></td>
-                    <td><img src="img/mov2.jpg" alt="Собачья жизнь"></td>
-                    <td><img src="img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>
+                    <td><img src="../img/mov1.jpg" alt="Человек-паук"></td>
+                    <td><img src="../img/mov2.jpg" alt="Собачья жизнь"></td>
+                    <td><img src="../img/mov3.jpg" alt="Люди в черном: Интернэшнл"></td>
                 </tr>
             </table>
         </div> 
         <div>  
             <a id="contacts"></a> 
-            <div><img src="img/1920x450.png" alt="date"></div>    
+            <div><img src="../img/1920x450.png" alt="date"></div>    
         <div>
     <div>
         <a id="present"></a>
-        <form action="">
+        <form>
             <div>
-                <label for="name"  >Имя</label>
-                <input type="text" placeholder="Имя*" id="name" required>
+                <label for="name">Имя</label>
+                <input type="text" placeholder="Имя*" name="name" id="name" required>
             </div>
             <div>
                 <label for="list">Список:</label> <br>
                 <select name="some" id="list" required>
-                    <option value="1" value="выбор1" >выбор1</option>
-                    <option value="2"value="выбор2" >выбор2</option>
-                    <option value="3" value="выбор3">выбор3</option>
+                    <option value="1">выбор1</option>
+                    <option value="2">выбор2</option>
+                    <option value="3">выбор3</option>
                 </select>
             </div>
             <div>
                 <label for="choice1" >выбор1</label> 
-                <input type="radio" name="radio1" id="choice1" value="выбор1" required> <br> 
+                <input type="radio" name="radio1" id="choice1" required> <br> 
                 <label for="choice2" >выбор2</label> 
-                <input type="radio" name="radio1" id="choice2" value="выбор2" required>  <br>
+                <input type="radio" name="radio1" id="choice2">  <br>
                 <label for="choice3" >выбор3</label> 
-                <input type="radio" name="radio1" id="choice3" value="выбор3" required>         
+                <input type="radio" name="radio1" id="choice3">         
             </div>
             <div>
                 <label for="description">Введите сообщение:</label> <br>
-                <textarea  name="description" placeholder="Комментарий" id="description" cols="30" rows="10" ></textarea>
+                <textarea name="description" placeholder="Комментарий" id="description" cols="30" rows="10"></textarea>
             </div>
             <div>
                 <label for="permission">Я согласен на обработку персональных данных</label>
-                <input value="checkbox" type="checkbox" id="permission" required>
+                <input type="checkbox" id="permission" required>
             </div>
             <div>
                 <label for="upload"></label>
-                <input value="file" type="file" id="upload">
+                <input type="file" id="upload">
             </div>
             <div>
                 <label for="sent"></label>
